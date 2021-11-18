@@ -1,5 +1,6 @@
 /* INDEX.HTML */
 body {
+  text-align: center;
   background-color: rgba(255, 235, 205, 0.322);
 }
 
@@ -8,20 +9,21 @@ img {
   margin: 0 auto;
 }
 
-h1 {
-  text-align: center;
-  font-size: 45px;
+.h1-index {
+  font-size: 55px;
 }
 
-h6 {
-  text-align: center;
+.h6-index {
   margin-top: 20px;
   color: rgb(59, 179, 139);
 }
 
 @media (max-width: 550px) {
-  h1 {
+  .h1-index {
     font-size: 35px;
+  }
+  .github-connect {
+      font-size: 10px;
   }
 }
 
@@ -38,4 +40,30 @@ h6 {
 .github-link {
   text-decoration: none;
   color: rgb(59, 179, 139);
+}
+
+.container-index {
+  margin-top: 40px;
+}
+
+/* HOME.HTML */
+.container-home {
+  margin-top: 40px;
+}
+
+.h2-home {
+  font-size: 40px;
+}
+
+.h1-home {
+  font-size: 90px;
+}
+
+.h2-emoji {
+  font-size: 30px;
+}
+
+.h3-home {
+  font-size: 20px;
+  margin-top: 25px;0
 }
