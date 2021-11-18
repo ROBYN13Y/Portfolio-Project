@@ -104,7 +104,7 @@ img {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 200px) {
   .h3-home {
     font-size: 6px;
   }
