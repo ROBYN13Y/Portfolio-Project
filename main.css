@@ -82,8 +82,23 @@ body {
 
 /* INDEX.HTML */
 .body-index {
-  background-color: rgba(78, 149, 190, 0.459);
+  background-color: rgba(78, 136, 190, 0.459);
   padding: 50px 0;
+}
+
+.index-link {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.index-link:hover {
+  color: aliceblue;
+}
+
+.index-img {
+  display: block;
+  margin: auto;
+  max-width: 95%;
 }
 
 /* HOME.HTML */
