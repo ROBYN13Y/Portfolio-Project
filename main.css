@@ -89,25 +89,13 @@ img {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 600px) {
-  .h1-index {
-    font-size: 35px;
-  }
-  .github-connect {
-    font-size: 10px;
-  }
-  .h1-home {
-    font-size: 80px;
-  }
-}
-
-@media (max-width: 250px) {
+@media (max-width: 300px) {
   .h3-home {
-    font-size: 6px;
+    font-size: 8px;
   }
 }
 
-@media (min-width: 550px) and (max-width: 780px) {
+@media (min-width: 301px) and (max-width: 750px) {
   .h3-home {
     font-size: 15px;
   }
