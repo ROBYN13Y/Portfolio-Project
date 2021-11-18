@@ -11,7 +11,8 @@ body {
 
 .container2-about,
 .container1-gallery,
-.container1-about {
+.container1-about,
+.container1-contact {
   margin-top: 80px;
 }
 
@@ -19,6 +20,15 @@ body {
 .h1-about,
 .h1-gallery {
   font-size: 90px;
+}
+
+.h-emoji {
+  font-size: 30px;
+}
+
+.h1-index,
+.h1-contact {
+  font-size: 60px;
 }
 
 /* MEDIA QUERIES */
@@ -32,17 +42,24 @@ body {
   .h3-about {
     font-size: 20px;
   }
-  .p1-about {
+  .p1-about,
+  .h3-contact {
     font-size: 15px;
   }
   .h1-gallery {
     font-size: 25px;
   }
-  .github-connect {
+  .github-connect,
+  .p1-gallery,
+  .email-link,
+  .instagram-link {
     font-size: 13px;
   }
-  .p1-gallery {
-    font-size: 13px;
+  .h1-contact {
+    font-size: 40px;
+  }
+  .h5-contact {
+    font-size: 10px;
   }
 }
 
@@ -65,9 +82,6 @@ body {
 }
 
 /* INDEX.HTML */
-.h1-index {
-  font-size: 60px;
-}
 
 .h6-index {
   margin-top: 20px;
@@ -102,10 +116,6 @@ body {
   font-size: 40px;
 }
 
-.h2-emoji {
-  font-size: 30px;
-}
-
 .h3-home {
   font-size: 20px;
   margin-top: 25px;
@@ -129,6 +139,11 @@ body {
   width: 95%;
 }
 
+/* ABOUT.HTML */
+.container3-about {
+  margin-top: 15px;
+}
+
 /* GALLERY.HTML */
 .container2-gallery {
   margin-top: 20px;
@@ -143,8 +158,37 @@ body {
   max-width: 100%;
 }
 
+/* CONTACT.HTML */
+.row-container3-contact {
+  display: flex;
+}
+
+.h4-contact {
+  font-size: 16px;
+}
+
+.img1-contact {
+  max-width: 50%;
+}
+
+.row-contact {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+#contact {
+  font-size: 30px;
+}
+
+.contact-emoji:hover {
+  font-size: 38px;
+}
+
 /* LINKS */
-.github-link {
+.github-link,
+.email-link,
+.instagram-link,
+.email-connect {
   text-decoration: none;
   color: rgb(59, 179, 139);
 }
@@ -177,6 +221,3 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   color: white;
 }
-
-/* USE LATER */
-/* 🏰 */
