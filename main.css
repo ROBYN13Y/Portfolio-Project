@@ -74,6 +74,7 @@ img {
 }
 
 #gal-img-home {
+  margin-top: 10px;
   transition: width 0.5s;
 }
 
