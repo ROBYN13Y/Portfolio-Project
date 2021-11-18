@@ -104,6 +104,12 @@ img {
   }
 }
 
+@media (max-width: 300px) {
+  .h3-home {
+    font-size: 10px;
+  }
+}
+
 /* LINKS */
 .button-link {
   border-radius: 4px;
