@@ -76,6 +76,9 @@ footer {
   .h1-gallery {
     font-size: 50px;
   }
+  .index-link {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 1900px) {
@@ -90,19 +93,14 @@ footer {
   padding: 50px 0;
 }
 
-.index-link {
-  font-size: 40px;
-  text-decoration: none;
-}
-
-.index-link:hover {
-  color: aliceblue;
-}
-
 .index-img {
   display: block;
   margin: auto;
   max-width: 95%;
+}
+
+.footer-ig-link {
+  margin-left: 30px;
 }
 
 /* HOME.HTML */
@@ -226,4 +224,22 @@ footer {
   background: #8b2fa7a8;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   color: white;
+}
+
+.index-link {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.index-link:hover {
+  color: aliceblue;
+}
+
+.mobile-index-link {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.mobile-index-link:hover {
+  color: aliceblue;
 }
