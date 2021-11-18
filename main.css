@@ -159,10 +159,6 @@ body {
 }
 
 /* CONTACT.HTML */
-.row-container3-contact {
-  display: flex;
-}
-
 .h4-contact {
   font-size: 16px;
 }
@@ -191,6 +187,11 @@ body {
 .email-connect {
   text-decoration: none;
   color: rgb(59, 179, 139);
+}
+
+.email-link:hover,
+.instagram-link:hover {
+  color: blue;
 }
 
 .button-link {
