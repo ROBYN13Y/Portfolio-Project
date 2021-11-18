@@ -61,35 +61,34 @@ img {
 }
 
 .container2-home {
-    background-color: rgba(137, 43, 226, 0.171);
-    max-width: 80%;
-    display: block;
-    margin: 0 auto;
-    padding: 15px;
-    margin-bottom: 50px;
+  background-color: rgba(137, 43, 226, 0.171);
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  margin-bottom: 50px;
 }
 
 .h6-home {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 #gal-img-home {
-    margin: 10px;
-     transition: width 0.5s;
+  transition: width 0.5s;
 }
 
 #gal-img-home:hover {
-    width: 95%;
+  width: 95%;
 }
 
 .h5-home {
-    font-size: 25px;
-    transition: font 0.5s;
+  font-size: 25px;
+  transition: font 0.5s;
 }
 
 .h5-home:hover {
-    color: rgb(116, 26, 201);
-    font-size: 30px;
+  color: rgb(116, 26, 201);
+  font-size: 30px;
 }
 
 /* MEDIA QUERIES */
@@ -98,13 +97,13 @@ img {
     font-size: 35px;
   }
   .github-connect {
-      font-size: 10px;
+    font-size: 10px;
   }
   .h1-home {
-      font-size: 80px;
+    font-size: 80px;
   }
   .h3-home {
-      font-size: 15px;
+    font-size: 15px;
   }
 }
 
