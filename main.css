@@ -88,16 +88,51 @@ img {
   transition: font 0.5s;
 }
 
+/* ABOUT.HTML */
+.container1-about {
+  margin-top: 70px;
+}
+
+.h1-about {
+  font-size: 90px;
+}
+
+.container2-about {
+  margin-top: 80px;
+}
+
+.row-container2 {
+  width: fit-content;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 300px) {
   .h3-home {
     font-size: 8px;
+  }
+  .h1-about {
+    font-size: 50px;
+  }
+  .h3-about {
+    font-size: 20px;
+  }
+  .p1-about {
+    font-size: 15px;
   }
 }
 
 @media (min-width: 301px) and (max-width: 750px) {
   .h3-home {
     font-size: 15px;
+  }
+  .h1-about {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 1900px) {
+  .button-link-about {
+    font-size: 12px;
   }
 }
 
@@ -111,8 +146,23 @@ img {
   color: white;
 }
 
-.button-link:hover {
+.button-link:hover,
+.button-link-about:hover {
   border: 1px solid purple;
+  color: white;
+}
+
+.button-link-about {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 140px;
+  border-radius: 4px;
+  padding: 5px 20px;
+  text-decoration: none;
+  background: #8b2fa7a8;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   color: white;
 }
 
