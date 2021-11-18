@@ -1,26 +1,7 @@
-/* INDEX.HTML */
+/* GLOBAL ELEMENTS */
 body {
   text-align: center;
   background-color: rgba(255, 235, 205, 0.322);
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-}
-
-.h1-index {
-  font-size: 55px;
-}
-
-.h6-index {
-  margin-top: 20px;
-  color: rgb(59, 179, 139);
-}
-
-#index-work-img {
-  border-radius: 3%;
-  border: 5px solid rgb(181, 228, 228);
 }
 
 .github-connect {
@@ -28,81 +9,16 @@ img {
   text-align: center;
 }
 
-.github-link {
-  text-decoration: none;
-  color: rgb(59, 179, 139);
-}
-
-.container-index {
-  margin-top: 40px;
-}
-
-/* HOME.HTML */
-.container1-home {
-  margin-top: 70px;
-  margin-bottom: 80px;
-}
-
-.h2-home {
-  font-size: 40px;
-}
-
-.h1-home {
-  font-size: 90px;
-}
-
-.h2-emoji {
-  font-size: 30px;
-}
-
-.h3-home {
-  font-size: 20px;
-  margin-top: 25px;0
-}
-
-.container2-home {
-  background-color: rgba(137, 43, 226, 0.171);
-  max-width: 80%;
-  display: block;
-  margin: 0 auto;
-  padding: 15px;
-  margin-bottom: 50px;
-}
-
-.h6-home {
-  margin-top: 15px;
-  color: white;
-}
-
-#gal-img-home {
-  margin-top: 10px;
-  transition: width 0.8s;
-}
-
-#gal-img-home:hover {
-  width: 95%;
-}
-
-.h5-home {
-  font-size: 25px;
-  transition: font 0.5s;
-}
-
-/* ABOUT.HTML */
+.container2-about,
+.container1-gallery,
 .container1-about {
-  margin-top: 70px;
-}
-
-.h1-about {
-  font-size: 90px;
-}
-
-.container2-about {
   margin-top: 80px;
 }
 
-.row-container2 {
-  width: fit-content;
+.h1-home,
+.h1-about,
+.h1-gallery {
+  font-size: 90px;
 }
 
 /* MEDIA QUERIES */
@@ -119,14 +35,26 @@ img {
   .p1-about {
     font-size: 15px;
   }
+  .h1-gallery {
+    font-size: 25px;
+  }
+  .github-connect {
+    font-size: 13px;
+  }
+  .p1-gallery {
+    font-size: 13px;
+  }
 }
 
-@media (min-width: 301px) and (max-width: 750px) {
+@media (min-width: 301px) and (max-width: 900px) {
   .h3-home {
     font-size: 15px;
   }
   .h1-about {
     font-size: 70px;
+  }
+  .h1-gallery {
+    font-size: 50px;
   }
 }
 
@@ -136,7 +64,91 @@ img {
   }
 }
 
+/* INDEX.HTML */
+.h1-index {
+  font-size: 60px;
+}
+
+.h6-index {
+  margin-top: 20px;
+  color: rgb(59, 179, 139);
+}
+
+#index-work-img {
+  border-radius: 3%;
+  border: 5px solid rgb(181, 228, 228);
+}
+
+.container-index {
+  margin-top: 40px;
+}
+
+/* HOME.HTML */
+.container1-home {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.container2-home {
+  background-color: rgba(137, 43, 226, 0.171);
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+.h2-home {
+  font-size: 40px;
+}
+
+.h2-emoji {
+  font-size: 30px;
+}
+
+.h3-home {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.h5-home {
+  font-size: 25px;
+}
+
+.h6-home {
+  margin-top: 15px;
+  color: white;
+}
+
+#gal-img-home {
+  margin-top: 10px;
+  transition: width 0.8s;
+}
+
+#gal-img-home:hover {
+  width: 95%;
+}
+
+/* GALLERY.HTML */
+.container2-gallery {
+  margin-top: 20px;
+}
+
+#img-gallery {
+  max-width: 90%;
+}
+
+#img-gallery:hover {
+  border: 2px solid thistle;
+  max-width: 100%;
+}
+
 /* LINKS */
+.github-link {
+  text-decoration: none;
+  color: rgb(59, 179, 139);
+}
+
 .button-link {
   border-radius: 4px;
   padding: 5px 20px;
