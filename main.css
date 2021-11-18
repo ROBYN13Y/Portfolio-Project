@@ -13,6 +13,12 @@ h1 {
   font-size: 45px;
 }
 
+h6 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(59, 179, 139);
+}
+
 @media (max-width: 550px) {
   h1 {
     font-size: 35px;
@@ -20,7 +26,6 @@ h1 {
 }
 
 #index-work-img {
-  margin-top: 40px;
   border-radius: 3%;
   border: 5px solid rgb(181, 228, 228);
 }
