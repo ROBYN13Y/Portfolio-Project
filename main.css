@@ -71,11 +71,12 @@ img {
 
 .h6-home {
   margin-top: 15px;
+  color: white;
 }
 
 #gal-img-home {
   margin-top: 10px;
-  transition: width 0.5s;
+  transition: width 0.8s;
 }
 
 #gal-img-home:hover {
@@ -85,11 +86,6 @@ img {
 .h5-home {
   font-size: 25px;
   transition: font 0.5s;
-}
-
-.h5-home:hover {
-  color: rgb(116, 26, 201);
-  font-size: 30px;
 }
 
 /* MEDIA QUERIES */
@@ -108,4 +104,20 @@ img {
   }
 }
 
+/* LINKS */
+.button-link {
+  border-radius: 4px;
+  padding: 5px 20px;
+  text-decoration: none;
+  background: #8b2fa7a8;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.button-link:hover {
+  border: 1px solid purple;
+  color: white;
+}
+
+/* USE LATER */
 /* 🏰 */
