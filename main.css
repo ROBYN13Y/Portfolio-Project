@@ -93,7 +93,7 @@ img {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .h1-index {
     font-size: 35px;
   }
